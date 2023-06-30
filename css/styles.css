@@ -1,0 +1,398 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --primary-black-color: #212121;
+    --primary-black-color: #757575;
+    --primary-black-color: #ffffff;
+
+    --accent-color: #2196f3;
+    --background-black: #21303a;
+    --background-gray: #f5f4fa;
+    --button-primary-hover: #188ce8;
+    --logo-black: #000000;
+    --text-white-opacity: #ffffff99;
+}
+
+body {
+    font-family: 'Roboto';
+}
+
+section {
+    padding: 96px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    width: 1200px;
+    padding: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*ESTILOS PARA BARRA DE NAVEGACION*/ 
+.container-header {
+    display: flex;
+    gap: 93px;
+}
+
+.header-list {
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+    gap: 50px;
+
+}
+
+.container-contacts {
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+    gap: 50px;
+    margin-left: 250px;
+
+}
+
+.header-page {
+    border: 1px solid #ECECEC;
+}
+
+/*ESTILOS PARA EL TITULO*/
+
+.header-title {
+    color: #2196F3;
+    text-align: right;
+    font-size: 26px;
+    font-family: Raleway;
+    letter-spacing: 0.78px;
+    cursor: pointer;
+}
+
+/*ESTILOS PARA LA LISTA ESTUDIO PORTAFOLIO Y CONTACTOS*/
+
+.header-links {
+    color: #212121;
+    font-size: 14px;
+    letter-spacing: 0.28px;
+    list-style: none;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.header-links:hover {
+    color: #0059ff;
+}
+
+/*ESTILOS CORREO Y TELEFONO*/
+.contact-one {
+    color: #757575;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    letter-spacing: 0.28px;
+}
+
+.list-contacts {
+    list-style: none;
+}
+
+.contact-one:hover {
+    color: #2196F3;
+}
+
+/*ESTILOS PARA EL TITULO PRINCIPAL Y EL BOTON*/
+
+.title-primary {
+    background: #2F303A;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 600px;
+}
+
+.title {
+    color: #FFF;
+    text-align: center;
+    font-size: 44px;
+    line-height: 60px;
+    letter-spacing: 2.64px;
+    text-transform: uppercase;
+}
+
+.button-one {
+    width: auto;
+    height: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.button-primary {
+    padding: 10px 32px;
+    border-radius: 4px;
+    background: #2196F3;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+    color: #FFF;
+    text-align: center;
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: 0.96px;
+    cursor: pointer;
+}
+
+/*ESTILO PARA LA SECCION DE BENEFICIOS*/
+
+.section-one-description {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+}
+
+.section-description {
+    color: #212121;
+    font-size: 14px;
+    letter-spacing: 0.42px;
+    text-transform: uppercase;
+}
+
+.description {
+    color: #757575;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.42px;
+    padding-top: 10px;
+}
+
+/*ESTILO PARA LA SECCION DE IMAGENES*/
+
+.text {
+    color: #212121;
+    text-align: center;
+    font-size: 36px;
+    letter-spacing: 1.08px;
+}
+
+/*ESTILO PARA LA SECTION TWO*/
+
+.section-images {
+    display: flex;
+    list-style: none;
+    padding-top: 55.05px;
+}
+
+.section-images li {
+    margin-right: 10px;
+}
+
+.section-images img {
+    max-width: 100%;
+}
+
+/*ESTILO PARA LA SECCION DEL EQUIPO DE PROFESIONALES*/
+.card-container {
+    background: #F5F4FA;
+}
+
+.card-container-equipment {
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+    justify-content: space-around;
+    padding-top: 50px;
+}
+
+.card {
+    background: #FFFFFF;
+    /* material shadow v1 */
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
+}
+
+.card-name {
+    font-style: normal;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+    white-space: pre-line;
+}
+
+.name {
+    color: #212121;
+    text-align: center;
+    font-size: 16px;
+    letter-spacing: 0.48px;
+}
+.profession {
+    color: #757575;
+    text-align: center;
+    font-size: 16px;
+    letter-spacing: 0.48px;
+}
+/*ESTILO PARA EL FOOTER*/
+
+.container-footer {
+    display: flex;
+    flex-direction: row;
+}
+
+.social-networks {
+    padding-left: 100px;
+}
+
+.contact-one-footer {
+    color: #757575;
+    font-size: 14px;
+    font-style: normal;
+    letter-spacing: 0.28px;
+}
+
+.list-contacts-footer {
+    list-style: none;
+}
+
+.contact-one-footer:hover {
+    color: #2196F3;
+}
+.webstudio {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-size: 26px;
+    line-height: 31px;
+    /* identical to box height */
+
+    letter-spacing: 0.03em;
+    color: #2196F3;
+}
+
+.direction {
+    font-style: normal;
+    font-size: 14px;
+    line-height: 24px;
+    /* or 171% */
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+}
+
+.salto {
+    display: block;
+}
+
+.footer {
+    background: #2F303A;
+    padding: 60px;
+}
+
+.contact-two:is(:hover, :focus) {
+    color: #2196F3;
+}
+
+.address {
+    font-style: normal;
+}
+
+.find {
+    font-style: normal;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.redes-sociales {
+    list-style: none;
+    display: flex;
+    padding-top: 20px;
+}
+
+/*ESTILO PARA EL PORTAFOLIO*/
+/*ESTILO PARA LOS BOTONES DEL PORTAFOLIO*/
+
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    list-style: none;
+}
+
+.button {
+    color: #212121;
+    cursor: pointer;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 26px;
+    letter-spacing: 0.48px;
+    background: #F5F4FA;
+    border-radius: 4px;
+    border: none;
+    width: 128px;
+    height: 38px;
+}
+
+.button:hover,
+.button:focus {
+    background-color: #2196F3;
+    color: #FFFFFF;
+}
+
+ /*ESTILO PARA LAS IMAGENES DEL PORTAFOLIO*/
+
+ .container-botones {
+    padding-bottom: 28px;
+ }
+ .container-card {
+    padding-top: 28px;
+ }
+
+ .card-container-images {
+     display: flex;
+     flex-wrap: wrap;
+     list-style-type: none;
+     justify-content: space-between;
+     gap: 30px
+ }
+
+ .card-images {
+     background: #FFFFFF;
+     /* material shadow v1 */
+     border-radius: 0px 0px 4px 4px;
+     flex-basis: calc((100% - 60px) / 3);
+ }
+
+ img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+ }
+
+ .card-portafolio {
+    display: block;
+    color: #212121;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: left;
+    letter-spacing: 0.03em;
+    padding: 24px;
+ }
+
+ .card-portafolio {
+    border: 1px solid #EEE;
+ }
+
+ .portafolio-text {
+    color: #757575;
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: 0.48px;
+}
