@@ -221,9 +221,12 @@ a {
     text-align: center;
     letter-spacing: 0.03em;
     color: #212121;
-    white-space: pre-line;
+    padding: 32px;
 }
 
+.name-profession {
+    white-space: pre-line;
+}
 .name {
     color: #212121;
     text-align: center;
@@ -396,12 +399,44 @@ a {
     line-height: 30px;
     letter-spacing: 0.48px;
 }
+/*DISEÑO PARA ICONOS DE CONTACTOS*/
 
-/*DISEÑO PARA LA SECCION DE CLIENTES REGULARES*/
+/*DISEÑO PARA ICONOS REDES SOCIALES DE LA SECCION EQUIPO*/
+
+.flex-social {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.social-link-container {
+    width: 44px;
+    height: 44px;
+    border-radius: 22px;
+    padding: 12px;
+}
+
+.social-link-icon {
+    width: 20px;
+    height: 20px;
+    fill: #AFB1B8;
+}
+
+.social-link-container:hover {
+    background-color: #2196f3;
+}
+
+.social-link-container:hover .social-link-icon {
+fill: #FFFFFF;
+}
+
+/*DISEÑO PARA LA SECCION ICONOS DE CLIENTES REGULARES*/
 
 .flex-clientes {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    gap: 30px;
+    padding-top: 44px;
 }
 
 .client-container {
