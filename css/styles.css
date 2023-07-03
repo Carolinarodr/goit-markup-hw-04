@@ -37,6 +37,7 @@ a {
 }
 
 /*ESTILOS PARA BARRA DE NAVEGACION*/ 
+
 .container-header {
     display: flex;
     gap: 93px;
@@ -55,7 +56,7 @@ a {
     list-style-type: none;
     align-items: center;
     gap: 50px;
-    margin-left: 250px;
+    margin-left: 210px;
 
 }
 
@@ -105,6 +106,29 @@ a {
 .contact-one:hover {
     color: #2196F3;
 }
+
+/*DISEÑO PARA LOS ICONOS DE LA BARRA DE NAVEGACION*/
+
+.contact-mensaje {
+    width: 16px;
+    height: 12px;
+    fill: #757575;
+}
+
+.contact-mensaje:hover {
+    fill:#2196F3 ;
+}
+
+.contact-phone {
+    width: 10px;
+    height: 16px;
+    fill: #757575;
+}
+
+.contact-phone:hover {
+    fill: #2196F3;
+}
+
 
 /*ESTILOS PARA EL TITULO PRINCIPAL Y EL BOTON*/
 
@@ -243,11 +267,11 @@ a {
 
 .container-footer {
     display: flex;
-    flex-direction: row;
 }
 
 .social-networks {
-    padding-left: 100px;
+    padding-left: 82px;
+    padding-top: 15px;
 }
 
 .contact-one-footer {
@@ -310,10 +334,30 @@ a {
     color: #FFFFFF;
 }
 
-.redes-sociales {
-    list-style: none;
+/*DISEÑO PARA LAS REDES SOCIALES DE FOOTER*/
+
+.flex-networks {
     display: flex;
+    justify-content: center;
+    gap: 10px;
     padding-top: 20px;
+}
+.networks-link-container {
+    width: 44px;
+    height: 44px;
+    border-radius: 22px;
+    padding: 12px;
+    background-color: #FFFFFF1A;
+}
+
+.networks-link-icon {
+    width: 20px;
+    height: 20px;
+    fill: #ffffff;
+}
+
+.networks-link-container:hover {
+    background-color: #2196f3;
 }
 
 /*ESTILO PARA EL PORTAFOLIO*/
@@ -399,7 +443,6 @@ a {
     line-height: 30px;
     letter-spacing: 0.48px;
 }
-/*DISEÑO PARA ICONOS DE CONTACTOS*/
 
 /*DISEÑO PARA ICONOS REDES SOCIALES DE LA SECCION EQUIPO*/
 
