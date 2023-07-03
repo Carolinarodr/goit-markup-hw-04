@@ -91,6 +91,7 @@ a {
 }
 
 /*ESTILOS CORREO Y TELEFONO*/
+
 .contact-one {
     color: #757575;
     font-size: 14px;
@@ -182,6 +183,7 @@ a {
     font-size: 14px;
     letter-spacing: 0.42px;
     text-transform: uppercase;
+    padding-top: 30px;
 }
 
 .description {
@@ -190,6 +192,21 @@ a {
     line-height: 24px;
     letter-spacing: 0.42px;
     padding-top: 10px;
+}
+
+/*DISEÑO PARA LO ICONOS DE BENEFICIOS*/
+
+.list-icon {
+    width: 70px;
+    height: 70px;
+}
+
+.list-icon-container {
+    width: 270px;
+    height: 120px;
+    border-radius: 4px;
+    background: #F5F4FA;
+    padding: 25px 100px;
 }
 
 /*ESTILO PARA LA SECCION DE IMAGENES*/
