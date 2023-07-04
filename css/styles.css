@@ -216,8 +216,7 @@ a {
     background: #F5F4FA;
     padding: 25px 100px;
 }
-
-/*ESTILO PARA LA SECCION DE IMAGENES*/
+/*DISEÑO SECCION 2 IMAGENES */
 
 .text {
     color: #212121;
@@ -226,21 +225,55 @@ a {
     letter-spacing: 1.08px;
 }
 
-/*ESTILO PARA LA SECTION TWO*/
-
 .section-images {
-    display: flex;
     list-style: none;
-    padding-top: 55.05px;
+    display: flex;
+    gap: 30px;
+    padding-top: 50px;
 }
 
-.section-images li {
-    margin-right: 10px;
+.image-one {
+    display: flex;
+    width: 370px;
+    height: 294px;
+    background: url(../images/images.jpg);
+    align-items: flex-end;
 }
 
-.section-images img {
-    max-width: 100%;
+.image-two {
+    display: flex;
+    width: 370px;
+    height: 294px;
+    background: url(../images/images1.jpg);
+    align-items: flex-end;
 }
+
+.image-three {
+    display: flex;
+    width: 370px;
+    height: 294px;
+    background: url(../images/images2.jpg);
+    align-items: flex-end;
+}
+
+.fond-text { 
+    width: 370px;
+    height: 70px;
+    background: rgba(47, 48, 58, 0.80);
+}
+
+.text-image {
+    color: #fff;
+    font-size: 14px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.42px;
+    text-transform: uppercase;
+    padding: 27px 79px;
+}
+
 
 /*ESTILO PARA LA SECCION DEL EQUIPO DE PROFESIONALES*/
 .card-container {
