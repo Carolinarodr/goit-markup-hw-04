@@ -141,9 +141,11 @@ a {
     flex-direction: column;
     justify-content: center;
     height: 600px;
-    background: url("../images/images-fond.jpg");
+    width: 1600px;
+    margin: auto;
+    align-items: center;
     background-position: center; 
-    background: radial-gradient(rgba(47, 48, 58, 0.40));
+    background-image: linear-gradient(to right,rgba(47, 48, 58, 0.4),rgba(47, 48, 58, 0.4)),url("../images/images-fond.jpg");
 }
 
 .container-primary {
